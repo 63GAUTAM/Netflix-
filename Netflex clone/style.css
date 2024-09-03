@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.main {
+
+    background-image: url(Assets/img/backimg.jpg);
+    height: 80vh;
+    /* background-size: max(1000px-100vw); */
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    /* opacity: 0.90; */
+
+}
+
+
+
+.main .box {
+
+    height: 80vh;
+    width: 100%;
+    opacity: 0.80;
+    background-color: rgba(0, 0, 0, 0.945);
+    position: absolute;
+    top: 0;
+}
+
+
+
+nav {
+
+    padding: 20px;
+    height: 60px;
+    display: flex;
+    max-width: 70%;
+    margin: auto;
+    justify-content: space-between;
+
+}
+
+nav img {
+    width: 150px;
+    position: relative;
+    z-index: 10;
+}
+
+nav .btn {
+    position: relative;
+    z-index: 10;
+
+
+
+}
+
+.text {
+    font-family: "Martel Sans", sans-serif;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    font-size: 23px;
+    display: flex;
+    gap: 10px;
+    padding: 0 30px;
+
+}
+
+.text> :nth-child(1) {
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.text> :nth-child(2) {
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+}
+
+.text> :nth-child(3) {
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+}
+
+.sepreation {
+    background-color: rgb(112, 112, 112);
+    height: 5px;
+    width: 100vw;
+    position: relative;
+    z-index: 10;
+
+}
+
+.btn .btn1 {
+    font-family: sans-serif;
+    padding: 8px 30px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid rgb(37, 29, 29);
+    width: 150px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn button {
+    padding: 8px 20px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+div input {
+    padding: 5px 23px;
+    height: 23px;
+    width: 250px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.822);
+    border-radius: 5px;
+    border: 2px solid rgb(41, 40, 40);
+}
+
+
+
+.getbtn {
+
+    background-color: red;
+    color: white;
+    font: 400;
+    height: 33px;
+    width: 100px;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.first {
+    display: flex;
+    max-width: 80%;
+    /* justify-content: center; */
+    margin: auto;
+    color: white;
+    align-items: center;
+    height: 60vh;
+    position: relative;
+    top: 60px;
+}
+
+
+
+.secImg img {
+    display: flex;
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video {
+    display: flex;
+    bottom: 41vb;
+    right: 0px;
+    left: 58px;
+    position: relative;
+    width: 21.5vw;
+
+
+}
+
+.second {
+    display: flex;
+    max-width: 80%;
+    /* justify-content: center; */
+    margin: auto;
+    color: white;
+    align-items: center;
+    height: 60vh;
+    position: relative;
+    top: 60px;
+  
+}
+
+
+
+.second .secImg img {
+    display: flex;
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+    top: -150px;
+}
+
+.third {
+    display: flex;
+    max-width: 80%;
+    /* justify-content: center; */
+    margin: auto;
+    color: white;
+    align-items: center;
+    height: 60vh;
+    position: relative;
+    top: 60px;
+}
+
+
+
+.third .secImg img {
+    display: flex;
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+
+.third .secImg video {
+    display: flex;
+    bottom: 44vb;
+    right: 0px;
+    left: 74px;
+    position: relative;
+    width: 250px;
+}
+
+
+.fourth {
+    display: flex;
+    max-width: 80%;
+    /* justify-content: center; */
+    margin: auto;
+    color: white;
+    align-items: center;
+    height: 60vh;
+    position: relative;
+    top: 60px;
+}
+.fourth .secImg img {
+    display: flex;
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+    top: -83px;
+}
+
+/* section.first > div{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+section.first > div :nth-child(1){
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+section.first > div :nth-child(2){
+    font-size: 24px;
+} */
+
+.feq{
+    color: white;   
+}
+
+.frq span{
+    border: 2px solid red;
+    height: 22px;
+    width: 100vw;
+}
